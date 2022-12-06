@@ -1,11 +1,9 @@
 package br.inatel.labs.labrest.client.exceptions;
 
 import com.google.gson.Gson;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 import java.io.Serializable;
-import java.time.Instant;
 
 public class StandardError implements Serializable {
     private String timestamp;

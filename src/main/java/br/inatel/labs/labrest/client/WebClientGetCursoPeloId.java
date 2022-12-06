@@ -4,7 +4,6 @@ import br.inatel.labs.labrest.client.exceptions.StandardError;
 import br.inatel.labs.labrest.client.model.Curso;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.reactive.function.client.WebClientResponseException;
-import reactor.core.publisher.Mono;
 
 public class WebClientGetCursoPeloId {
     public static void main(String[] args) {

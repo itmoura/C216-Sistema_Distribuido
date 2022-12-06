@@ -2,11 +2,8 @@ package br.inatel.labs.labrest.client;
 
 import br.inatel.labs.labrest.client.model.Curso;
 import org.springframework.web.reactive.function.client.WebClient;
-import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class WebClientGetCurso {
 
